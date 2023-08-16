@@ -1,4 +1,4 @@
-Attempt to create a minimal EDK2 for MSM8916 devices
+Attempt to create a minimal EDK2 for MSM8226 devices
 
 ## Status
 Boots to efi shell.
