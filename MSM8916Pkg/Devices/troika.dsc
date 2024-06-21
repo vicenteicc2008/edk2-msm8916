@@ -12,13 +12,13 @@
 !include MSM8916Pkg/MSM8916Pkg.dsc
 
 [PcdsFixedAtBuild.common]
-  # System Memory (2GB)
+  # System Memory (4GB)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x80000000
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0xE0000000
   
   # Framebuffer (720x1280)
-  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x8e000000
-  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|720
-  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1280
-  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|720
-  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1280
+  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xec000000
+  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
+  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2520
+  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080
+  gMSM8916PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2520
